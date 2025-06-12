@@ -1,31 +1,37 @@
-body{
+* {
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+body {
   margin: 0;
 }
 .container {
   max-width: 1440px;
-  
+
   margin: 0 auto;
 }
 .header {
   width: 100%;
-  padding-top: 40px ;
+  padding-top: 40px;
   background-image: url(image/header\ background.png);
   background-size: cover;
   background-position: center;
 }
-
+.header_container {
+  width: 95%;
+  margin: 0 auto;
+}
 .header_element {
   display: flex;
   justify-content: space-between;
   box-sizing: border-box;
-  margin: 0 40px;
   padding: 25px;
   max-width: 100%;
   border-radius: 83px;
   background-color: white;
   list-style: none;
 }
-.logo{
+.logo {
   font-size: 25px;
   font-weight: 600;
 }
@@ -38,8 +44,8 @@ body{
   border: none;
   background-color: transparent;
   color: black;
-  font-size: 18px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: 600;
 }
 .hero {
   display: flex;
