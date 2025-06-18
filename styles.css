@@ -1,4 +1,4 @@
-@import url(hero.css);t
+@import url(hero.css);
 
 
 .main {
@@ -11,4 +11,7 @@
 body {
   max-width: 1990px;
   margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
 }
