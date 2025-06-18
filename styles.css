@@ -25,11 +25,19 @@
   padding: 20px;
 }
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "roboto";
 }
 body {
-  max-width: 1990px;
+  margin: 0 auto;
+}
+a{
+  color: black;
+}
+.container {
+  max-width: 1440px;
   margin: 0 auto;
 }
 .button {

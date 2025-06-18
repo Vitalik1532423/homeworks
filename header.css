@@ -1,21 +1,20 @@
 .header {
   position: absolute;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
   width: 100%;
-  padding: 40px;
 }
 .header_element {
   display: flex;
   justify-content: space-between;
-  max-width: 1910px;
   padding: 20px 40px;
-  border-radius: 100vh;
+  border-radius: 40px;
   background-color: white;
 }
 .logo {
-  margin: 0;
   font-size: 30px;
   font-weight: 600;
-  color: black;
 }
 .header_buttons {
   display: flex;
@@ -28,21 +27,17 @@
 }
 .header_contact > a {
   text-decoration: none;
-  color: black;
   font-size: 18px;
   font-weight: 500;
 }
 .header_contact > button {
-  border-width: 1px;
-  border-style: solid;
-  border-radius: 100vh;
+  border: 1px solid black;
+  border-radius: 20px;
   padding: 7px 30px;
 }
-.header_contact > p {
+.icon_contact{
   width: 40px;
   height: 40px;
-  margin: 0px;
   border-radius: 50%;
-  border-width: 1px;
-  border-style: solid;
+  border: 1px solid black;
 }
