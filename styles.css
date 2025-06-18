@@ -1,41 +1,6 @@
-* {
-  box-sizing: border-box;
-  font-family: "roboto";
-}
-body {
-  max-width: 1990px;
-  margin: 0 auto;
-}
+
 /*---------------------------------------------------HEADER-----------------------------------------------------------------*/
-.header {
-  position: absolute;
-  width: 100%;
-  padding: 40px;
-}
-.header_element {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 25px;
-  border-radius: 83px;
-  background-color: white;
-  list-style: none;
-}
-.logo {
-  font-size: 25px;
-  font-weight: 600;
-}
-.header_buttons {
-  width: 694px;
-  display: flex;
-  justify-content: space-between;
-}
-.header_buttons > button {
-  border: none;
-  background-color: transparent;
-  color: black;
-  font-size: 18px;
-  font-weight: 500;
-}
+@import url("header.css");
 /*---------------------------------------------------MAIN-----------------------------------------------------------------*/
 .main {
 }
@@ -58,4 +23,27 @@ body {
   border: none;
   border-radius: 45px;
   padding: 20px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto";
+}
+body {
+  margin: 0 auto;
+}
+a{
+  color: black;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.button {
+  border: none;
+  background-color: transparent;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
 }
