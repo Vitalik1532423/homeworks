@@ -14,9 +14,14 @@
   border: none;
   border-radius: 45px;
   padding: 25px 30px;
-  margin-bottom: 45px;
 }
-
+.hero_search_container {
+  position: relative;
+  height: 72px;
+  margin-bottom: 45px;
+  border-radius: 30px;
+  align-items: center;
+}
 .hero_search_container::after {
   content: "";
   position: absolute;
@@ -32,7 +37,7 @@
 }
 
 .hero_text_one {
-   color: #ffffff;
+  color: #ffffff;
   margin-bottom: 20px;
   border: 1px solid #ffffff;
   border-radius: 26px;
@@ -40,19 +45,19 @@
   font-size: 13px;
 }
 .hero_text_two {
-   color: #ffffff;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 60px;
   font-weight: 600;
 }
 .hero_text_three {
-   color: #ffffff;
+  color: #ffffff;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 500;
 }
 .hero_text_four {
-    color: #ffffff;
+  color: #ffffff;
   margin-bottom: 20px;
 }
 .link_hero_container {
