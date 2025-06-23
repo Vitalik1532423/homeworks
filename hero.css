@@ -5,6 +5,8 @@
   background-image: url(image/hero_background.jpg);
   background-size: cover;
   background-position: center;
+  padding-top: 306px;
+  padding-bottom: 125px;
 }
 .hero_search {
   width: 690px;
@@ -12,15 +14,11 @@
   border: none;
   border-radius: 45px;
   padding: 25px 30px;
+  margin-bottom: 45px;
 }
-.hero_search_container {
-  position: relative;
-  width: 100%;
-  max-width: 690px;
-  margin: 0 0 45px 0;
-}
-.hero_search_container::after{
-  content:'';
+
+.hero_search_container::after {
+  content: "";
   position: absolute;
   right: 5px;
   top: 50%;
@@ -30,33 +28,36 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background:#E7C873;
+  background: #e7c873;
 }
-.hero_text{
-  color:#ffffff;
+
+.hero_text_one {
+   color: #ffffff;
   margin-bottom: 20px;
-}
-.hero_text:first-child{
-  margin-top: 306px;
   border: 1px solid #ffffff;
   border-radius: 26px;
-  padding: 10px 26px ;
+  padding: 10px 26px;
   font-size: 13px;
 }
-.hero_text:nth-child(2){
+.hero_text_two {
+   color: #ffffff;
+  margin-bottom: 20px;
   font-size: 60px;
   font-weight: 600;
-
 }
-.hero_text:nth-child(3){
+.hero_text_three {
+   color: #ffffff;
+  margin-bottom: 20px;
   font-size: 16px;
   font-weight: 500;
-  margin-bottom: 70px;
+}
+.hero_text_four {
+    color: #ffffff;
+  margin-bottom: 20px;
 }
 .link_hero_container {
   display: flex;
   column-gap: 10px;
-  margin-bottom: 125px;
 }
 .link_hero {
   position: relative;
@@ -66,10 +67,10 @@
   font-weight: 500;
   padding: 15px 20px 15px 55px;
   border-radius: 30px;
-  background-color: #E7C873;
+  background-color: #e7c873;
 }
-.link_hero::before{
-  content: '';
+.link_hero::before {
+  content: "";
   position: absolute;
   width: 40px;
   height: 40px;
