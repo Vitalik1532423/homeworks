@@ -36,7 +36,7 @@
   background: #e7c873;
 }
 
-.hero_text_one {
+.hero_subtitle_one {
   color: #ffffff;
   margin-bottom: 20px;
   border: 1px solid #ffffff;
@@ -44,19 +44,19 @@
   padding: 10px 26px;
   font-size: 13px;
 }
-.hero_text_two {
+.hero_title {
   color: #ffffff;
   margin-bottom: 20px;
   font-size: 60px;
   font-weight: 600;
 }
-.hero_text_three {
+.hero_subtitle_two {
   color: #ffffff;
   margin-bottom: 20px;
   font-size: 16px;
   font-weight: 500;
 }
-.hero_text_four {
+.hero_text {
   color: #ffffff;
   margin-bottom: 20px;
 }
