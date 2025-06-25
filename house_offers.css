@@ -1,15 +1,89 @@
-.house_offers_btn {
-  position: relative;
-  background-color: #e7c873;
-  padding: 20px 30px;
+.house_offers_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
-.house_offers_btn::after {
+.house_offers_list_apartment {
+  width: 446px;
+  height: 446px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.house_offers_list_apartment:first-child {
+  background-image: url(/image/house_offers_luxury_family_home.png);
+}
+.house_offers_list_apartment:nth-child(2) {
+  background-image: url(/image/house_offers_skyper_pool_apartment.png);
+}
+.house_offers_list_apartment:nth-child(3) {
+  background-image: url(/image/house_offers_north_dillard_street.png);
+}
+.house_offers_list_apartment:nth-child(4) {
+  background-image: url(/image/house_offers_eaton_garth_penthouse.png);
+}
+.house_offers_list_apartment:nth-child(5) {
+  background-image: url(/image/house_offers_new_apartmen_nice_wiew.png);
+}
+.house_offers_list_apartment:last-child {
+  background-image: url(/image/house_offers_diamond_manor_apartment.png);
+}
+.for_sale{
+  position: relative;
+}
+.for_sale::before {
+  content:"FOR SALE";
+  position: absolute;
+  background-color: #1F4B43;
+  padding: 15px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.for_rent{
+  position: relative;
+}
+.for_rent::before{
+  content:"FOR RENT";
+  position: absolute;
+  background-color: #1F4B43;
+  padding: 15px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.featured{
+  position: relative;
+}
+.featured::after {
+  content:"FEATURED";
+  position: absolute;
+  background-color: #E7C873;
+  padding: 15px;
+  border-radius: 30px;
+  left: 120px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.house_offers_btn {
+  width: 100%;
+  background-color: #e7c873;
+  padding: 20px 55px 20px 30px;
+  border: none;
+  border-radius: 40px;
+}
+.house_offers_btn_container {
+  position: relative;
+  width: 180px;
+}
+.house_offers_btn_container::after {
   content: "";
   background-image: url(image/svg_btn_house_offers.png);
   position: absolute;
   width: 15px;
-  height: 15px;
-  right: 10px;
+  height: 13px;
+  right: 25px;
   top: 50%;
   transform: translateY(-50%);
 }
