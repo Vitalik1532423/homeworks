@@ -25,6 +25,9 @@
   align-items: center;
   width: 340px;
 }
+.benefits_list_item > img {
+  margin-bottom: 27px;
+}
 .benefits_items_title {
   font-size: 25px;
   font-weight: 600;
@@ -34,25 +37,3 @@
   text-align: center;
   font-size: 15px;
 }
-.icon_benefits_one::before {
-  content: "";
-  background-image: url(/image/Icon_benefits_one.png);
-  width: 60px;
-  height: 60px;
-  margin-bottom: 27px;
-}
-.icon_benefits_two::before {
-  content: "";
-  background-image: url(/image/Icon_benefits_two.png);
-  width: 60px;
-  height: 60px;
-  margin-bottom: 27px;
-}
-.icon_benefits_three::before {
-  content: "";
-  background-image: url(/image/Icon_benefits_three.png);
-  width: 60px;
-  height: 60px;
-  margin-bottom: 27px;
-}
-
