@@ -1,29 +1,7 @@
-
 /*---------------------------------------------------HEADER-----------------------------------------------------------------*/
 @import url("header.css");
+@import url("hero.css");
 /*---------------------------------------------------MAIN-----------------------------------------------------------------*/
-.main {
-}
-/*---------------------------------------------------HERO-----------------------------------------------------------------*/
-.hero {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
-  padding-top: 40px;
-  background-image: url(image/header\ background.png);
-  background-size: cover;
-  background-position: center;
-}
-.hero_search {
-  display: grid;
-  justify-content: center;
-  width: 690px;
-  height: 70px;
-  border: none;
-  border-radius: 45px;
-  padding: 20px;
-}
 * {
   margin: 0;
   padding: 0;
@@ -33,7 +11,7 @@
 body {
   margin: 0 auto;
 }
-a{
+a {
   color: black;
 }
 .container {
@@ -44,3 +22,13 @@ a{
   font-size: 18px;
   font-weight: 500;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "roboto";
+  font-weight: 500;
+}
+/*---------------------------------------------------HERO-----------------------------------------------------------------*/
