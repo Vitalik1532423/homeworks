@@ -1,0 +1,15 @@
+.house_offers_btn {
+  position: relative;
+  background-color: #e7c873;
+  padding: 20px 30px;
+}
+.house_offers_btn::after {
+  content: "";
+  background-image: url(image/svg_btn_house_offers.png);
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
