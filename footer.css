@@ -1,0 +1,29 @@
+.footer{
+    padding: 10px 120px 0 120px;
+    background-color: #1F4B43;
+}
+.footer_social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ffffff;
+}
+
+.footer_social_icons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.footer_followus{
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    margin: 0 90px 10px 0;
+    color: #ffffff;
+    font-size: 19px;
+    font-weight: 500;
+
+}
+.footer_social_icons img{
+    width: 14px;
+    height: 15px;
+}
