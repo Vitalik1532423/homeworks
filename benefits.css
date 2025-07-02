@@ -10,7 +10,6 @@
   flex-wrap: wrap;
   justify-content: center;
   gap: 55px;
-  margin-top: 40px;
 }
 .benefits_list_item {
   display: flex;
