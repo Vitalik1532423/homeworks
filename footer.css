@@ -1,12 +1,12 @@
 .footer{
-    padding: 10px 120px 0 120px;
+    padding: 10px 120px 40px 120px;
     background-color: #1F4B43;
 }
 .footer_social {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid #ffffff;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer_social_icons{
@@ -26,4 +26,11 @@
 .footer_social_icons img{
     width: 14px;
     height: 15px;
+}
+.footer_copyright{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 40px;
 }
