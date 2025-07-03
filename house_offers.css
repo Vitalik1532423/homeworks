@@ -14,8 +14,6 @@
   position: relative;
   width: 446px;
   height: 446px;
-  padding: 20px;
-  align-items: end;
 }
 .filter_house_offers:has(#all:checked)
   ~ .house_offers_list
@@ -46,19 +44,16 @@ input:checked + label {
   border: 1px solid #000;
 }
 .house_offers_list_apartment img {
-  position: absolute;
-  top: 0;
-  left: 0;
   width: 100%;
   border-radius: 10px;
 }
 .list_data_info {
   position: absolute;
+  bottom: 20px;
+  left: 20px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  bottom: 20px;
-  width: 406px;
   height: 140px;
   background-color: #fff;
   padding: 20px;
@@ -87,6 +82,7 @@ input:checked + label {
   justify-content: space-between;
 }
 .sell_price {
+  margin-right: 80px;
   font-size: 21px;
   font-weight: 600;
   color: #eb664e;
@@ -96,8 +92,9 @@ input:checked + label {
   font-weight: 600;
   color: #eb664e;
 }
-.sell_rent::after {
-  content: " / month";
+.sell_rent_month {
+  margin-right: 65px;
+  padding-top: 5px;
   font-size: 16px;
   font-weight: 400;
   color: #eb664e;
@@ -126,6 +123,8 @@ input:checked + label {
   content: "FOR SALE";
   position: absolute;
   z-index: 1;
+  top: 20px;
+  left: 20px;
   background-color: #1f4b43;
   padding: 15px;
   border-radius: 30px;
@@ -137,6 +136,8 @@ input:checked + label {
   content: "FOR RENT";
   position: absolute;
   z-index: 1;
+  top: 20px;
+  left: 20px;
   background-color: #1f4b43;
   padding: 15px;
   border-radius: 30px;
@@ -147,10 +148,11 @@ input:checked + label {
 .featured::after {
   content: "FEATURED";
   position: absolute;
+  top: 20px;
+  left: 120px;
   background-color: #e7c873;
   padding: 15px;
   border-radius: 30px;
-  left: 120px;
   font-size: 13px;
   font-weight: 500;
 }
