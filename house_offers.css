@@ -1,0 +1,169 @@
+.house_offers_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.house_offers_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 50px;
+}
+.house_offers_list_apartment {
+  display: none;
+  position: relative;
+  width: 446px;
+  height: 446px;
+}
+.filter_house_offers:has(#all:checked)
+  ~ .house_offers_list
+  > .house_offers_list_apartment {
+  display: block;
+}
+.filter_house_offers:has(#sell:checked) ~ .house_offers_list .for_sale {
+  display: block;
+}
+.filter_house_offers:has(#rent:checked) ~ .house_offers_list .for_rent {
+  display: block;
+}
+.filter_house_offers {
+  margin-bottom: 40px;
+}
+.filter_house_offers input {
+  display: none;
+}
+.filter_house_offers label {
+  padding: 5px 21px;
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+input:checked + label {
+  background: #fff8f6;
+  border-radius: 15px;
+  border: 1px solid #000;
+}
+.house_offers_list_apartment img {
+  width: 100%;
+  border-radius: 10px;
+}
+.list_data_info {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+.title_data_info {
+  padding-bottom: 15px;
+  font-size: 19px;
+  font-weight: 600;
+}
+.house_offers_street {
+  position: relative;
+  margin-left: 30px;
+  padding-bottom: 15px;
+  font-size: 16px;
+}
+.house_offers_street::before {
+  content: " ";
+  position: absolute;
+  display: flex;
+  left: -30px;
+  width: 20px;
+  height: 20px;
+  background-image: url(/image/Icon_point.png);
+}
+.list_data_container {
+  display: flex;
+  justify-content: space-between;
+}
+.sell_price {
+  margin-right: 80px;
+  font-size: 21px;
+  font-weight: 600;
+  color: #eb664e;
+}
+.sell_rent {
+  font-size: 21px;
+  font-weight: 600;
+  color: #eb664e;
+}
+.sell_rent_month {
+  margin-right: 65px;
+  padding-top: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  color: #eb664e;
+}
+.list_data_characteristics {
+  display: flex;
+  justify-content: space-between;
+}
+.list_data_characteristics_item {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 70px;
+  font-size: 16px;
+}
+.list_data_characteristics_item img {
+  position: relative;
+  width: 30px;
+  height: 20px;
+  object-fit: contain;
+}
+.list_data_characteristics_item:not(:last-child) {
+  border-right: #000000 1px solid;
+}
+.for_sale::before {
+  content: "FOR SALE";
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  background-color: #1f4b43;
+  padding: 15px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.for_rent::before {
+  content: "FOR RENT";
+  position: absolute;
+  z-index: 1;
+  top: 20px;
+  left: 20px;
+  background-color: #1f4b43;
+  padding: 15px;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+}
+.featured::after {
+  content: "FEATURED";
+  position: absolute;
+  top: 20px;
+  left: 120px;
+  background-color: #e7c873;
+  padding: 15px;
+  border-radius: 30px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.house_offers_btn {
+  display: flex;
+  justify-content: space-between;
+  width: 180px;
+  background-color: #e7c873;
+  padding: 20px 30px;
+  border: none;
+  border-radius: 40px;
+}
