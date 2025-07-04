@@ -22,10 +22,7 @@ a{
   margin: 0 auto;
 }
 .button {
-  border: none;
-  background-color: transparent;
   color: black;
-  font-size: 18px;
   font-weight: 500;
 }
 h1,
