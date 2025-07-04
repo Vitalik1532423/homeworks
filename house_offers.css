@@ -54,18 +54,19 @@ input:checked + label {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 140px;
   background-color: #fff;
   padding: 20px;
   border-radius: 10px;
 }
 .title_data_info {
+  padding-bottom: 15px;
   font-size: 19px;
   font-weight: 600;
 }
 .house_offers_street {
   position: relative;
   margin-left: 30px;
+  padding-bottom: 15px;
   font-size: 16px;
 }
 .house_offers_street::before {
