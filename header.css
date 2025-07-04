@@ -16,9 +16,14 @@
   font-size: 30px;
   font-weight: 600;
 }
-.header_buttons {
+.header_btn_list {
   display: flex;
   column-gap: 27px;
+}
+.header_btn{
+  background-color: transparent;
+  color: black;
+  border: none;
 }
 .header_contact {
   display: flex;
@@ -31,6 +36,7 @@
   font-weight: 500;
 }
 .header_contact > button {
+  background-color: transparent;
   border: 1px solid black;
   border-radius: 20px;
   padding: 7px 30px;
