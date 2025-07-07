@@ -20,7 +20,7 @@
   ~ .house_offers_list
   > .house_offers_list_apartment {
   display: block;
-}
+  }
 .filter_house_offers:has(#sell:checked) ~ .house_offers_list .for_sale {
   display: block;
 }
@@ -36,13 +36,16 @@
 .filter_house_offers label {
   padding: 5px 21px;
   margin-right: 5px;
+  border-radius: 15px;
   cursor: pointer;
   font-size: 16px;
+  transition: background-color 1s ease;
 }
 input:checked + label {
-  background: #fff8f6;
+  background: #e7c873;
   border-radius: 15px;
   border: 1px solid #000;
+  transition: color 0.7s ease;
 }
 .house_offers_list_apartment img {
   width: 100%;
@@ -163,8 +166,12 @@ input:checked + label {
   display: flex;
   justify-content: space-between;
   width: 180px;
-  background-color: #e7c873;
   padding: 20px 30px;
   border: none;
   border-radius: 40px;
+  transition: background-color 0.7s ease;
+}
+.house_offers_btn:hover{
+  background-color: #e7c873;
+  transition: background-color 0.7s ease;
 }

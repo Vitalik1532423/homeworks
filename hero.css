@@ -36,9 +36,14 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background: #e7c873;
+  background-image: url(./image/icon_search.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: background-color 0.7s ease, color 0.7s ease;
 }
-
+.hero_search_container:hover::after {
+  background-color: #e7c873;
+}
 .hero_subtitle_one {
   color: #1f4b43;
   margin-bottom: 20px;
