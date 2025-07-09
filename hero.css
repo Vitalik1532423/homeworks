@@ -16,6 +16,7 @@
   font-size: 20px;
   border: none;
   border-radius: 45px;
+  outline: none;
   padding: 25px 30px;
 }
 .hero_search_container {

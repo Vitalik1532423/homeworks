@@ -39,7 +39,7 @@
   border-radius: 15px;
   cursor: pointer;
   font-size: 16px;
-  transition: background-color 1s ease;
+  transition: background-color 0.3s ease;
 }
 input:checked + label {
   background: #e7c873;
@@ -170,6 +170,7 @@ input:checked + label {
   border: none;
   border-radius: 40px;
   transition: background-color 0.7s ease;
+  cursor: pointer;
 }
 .house_offers_btn:hover{
   background-color: #e7c873;

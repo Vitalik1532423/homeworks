@@ -13,6 +13,7 @@
   background-color: white;
 }
 .logo {
+  text-decoration: none;
   font-size: 30px;
   font-weight: 600;
 }
@@ -23,6 +24,7 @@
 .header_btn {
   background-color: transparent;
   color: black;
+  cursor: pointer;
   border: none;
   font-size: 18px;
 }
